@@ -1,0 +1,37 @@
+.footer__container {
+    display: flex;
+    background-color:black;
+    height: 80px;
+    padding: 15px;
+    width: 100%;
+    align-items: center;
+    justify-content: start;
+    color: aliceblue;
+
+    
+    
+    &__caja-principal {
+        display: flex;
+        justify-content: flex-start;
+        flex-grow: 1;
+        margin-left: 80px;
+        margin-top: 15px;
+        font-family: $raleway;
+        font-weight: $regular;
+    }
+
+    &__copy {
+        margin-top: 15px;
+        margin-right: 80px;
+        font-size: 14px;
+        font-weight: 600;
+        font-family: $raleway;
+        font-weight: $regular;
+
+    }
+
+    .footer__container__caja {
+        margin-left: 20px;
+        list-style: $none;
+    }
+}

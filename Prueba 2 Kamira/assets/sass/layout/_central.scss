@@ -1,0 +1,88 @@
+.central{
+    background-image: url(../img/bg-price.svg);
+    display: flex;
+     margin-top: 50px;
+     flex-direction: column;
+     background-size: cover;
+     height: 140vh;
+     background-position:100%;
+     background-repeat: no-repeat;
+
+     &__titulo{
+        font-size: xx-large;
+        margin-top: 150px;
+        text-align: center;
+        color: aliceblue;
+        position: relative;
+        padding-top: 50px;
+
+     }
+     &__caja{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        width: 80%;
+        position: relative;
+        padding-left: 20%;
+        
+    }
+
+    &__cajas{
+       background-color:white;
+       flex-direction: column;
+       height: 400px;
+       width: 33%;
+       margin: 50px;   
+   
+
+
+ }
+ input{
+    width:200px ;
+    height:35px ;
+    background-color: #21b7ca;
+    border: 0px;
+}
+
+input:hover{
+    background-color: darkgray;
+    border:$cero;
+}
+.botones {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin-top: 9px;
+
+}
+
+.central__title1 { 
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: $raleway;
+    font-weight: $regular;
+}
+
+.central__title2{
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: $x-large;
+    font-family: $open-sans;
+    font-weight: $bold;
+}
+hr{
+    margin: auto;
+}
+
+.central__lista{
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 20px;
+
+}
+.linea2{
+   margin-top: 170px;
+}
+}

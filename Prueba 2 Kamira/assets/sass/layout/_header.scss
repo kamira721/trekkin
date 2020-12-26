@@ -1,0 +1,34 @@
+.header__principal {
+    background-image: url(../img/bg-hero.svg) ;
+     display: flex;
+     margin-top: 20px;
+     flex-direction: column;
+     background-size: cover;
+     height: 100vh;
+     background-position:100%;
+     background-repeat: no-repeat;
+  
+     
+     &__texto{
+         padding: 50px 80px;
+         font-family: $raleway;
+        font-weight: $regular;
+
+
+        
+     }
+ }
+ 
+ h1{
+     margin-left: 20px;
+     font-size: 3em;
+    
+     position: relative;
+     font-family: $raleway;
+    font-weight: $bold;
+
+
+ }
+ p{
+     margin-left: 50px;
+ }
